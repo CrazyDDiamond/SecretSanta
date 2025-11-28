@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Datos de las fotos (puedes cambiarlos por tus propias imágenes)
+    
     const fotos = [
         { src: 'imagenes/imagen1.jpg', categoria: 'PatyReuniones', descripcion: 'Antes de la peleada, se eliminó al cacas tambien xd' },
         { src: 'imagenes/imagen2.jpg', categoria: 'PatyReuniones', descripcion: 'Yo digo que sí le gustó' },
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'imagenes/imagen16.jpg', categoria: 'PatyDiosa', descripcion: '¿QUÉ ONDA CON LO GUAPA QUE ERES PATRICIA? 🤯' },
         { src: 'imagenes/imagen17.jpg', categoria: 'PatyPreparatoriana', descripcion: 'Eramos unos mocos jajaj' },
 
-        // Añade más fotos según necesites
+    
     ];
 
     const galeria = document.getElementById('galeria');
@@ -57,12 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Filtrar fotos por categoría
+  
     botonesFiltro.forEach(boton => {
         boton.addEventListener('click', () => {
-            // Quitar clase active de todos los botones
+            
             botonesFiltro.forEach(btn => btn.classList.remove('active'));
-            // Añadir clase active al botón clickeado
+            
             boton.classList.add('active');
             
             const categoria = boton.dataset.categoria;
@@ -70,11 +70,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Cerrar modal al hacer clic en la X
+    
     cerrar.addEventListener('click', () => {
         modal.style.display = 'none';
     });
 
-    // Cerrar modal al hacer clic fuera de la imagen
+    
     modal.addEventListener('click',)
+
 })
