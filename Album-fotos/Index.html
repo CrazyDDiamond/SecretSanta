@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Álbum de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>✨FELIZ NAVIDA', PASCUA, AÑO NUEVO, CUMPLEAÑOS, TODO✨</h1>
+        <p>Recuerdos especiales capturados en imágenes</p>
+    </header>
+    
+    <main>
+        <div class="filtros">
+            <button class="btn-filtro active" data-categoria="todas">Todas</button>
+            <button class="btn-filtro" data-categoria="PatyDiosa">PatyDiosa</button>
+            <button class="btn-filtro" data-categoria="PatyPreparatoriana">PatyPreparatoriana</button>
+            <button class="btn-filtro" data-categoria="PatyReuniones">PatyReuniones</button>
+        </div>
+        
+        <div class="galeria" id="galeria">
+            
+        </div>
+    </main>
+    
+    <div class="modal" id="modal">
+        <span class="cerrar" id="cerrar">&times;</span>
+        <img class="modal-contenido" id="imagen-modal">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <footer>
+        <p>© 2025 Intercambio | Creado con mucho love to you Pats ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
