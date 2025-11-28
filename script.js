@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     const fotos = [
-        { src: 'imagenes/imagen1.jpg', categoria: 'PatyReuniones', descripcion: 'Antes de la peleada, se eliminó al cacas tambien xd' },
+        { src: 'imagenes/Imagen1.jpg', categoria: 'PatyReuniones', descripcion: 'Antes de la peleada, se eliminó al cacas tambien xd' },
         { src: 'imagenes/imagen2.jpg', categoria: 'PatyReuniones', descripcion: 'Yo digo que sí le gustó' },
         { src: 'imagenes/imagen3.jpg', categoria: 'PatyReuniones', descripcion: 'Preciosos los dos verda de Dioj' },
         { src: 'imagenes/imagen4.jpg', categoria: 'PatyReuniones', descripcion: 'Los más guapos del Team 😍✨' },
@@ -79,4 +79,5 @@ document.addEventListener('DOMContentLoaded', function() {
     modal.addEventListener('click',)
 
 })
+
 
